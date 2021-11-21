@@ -4,7 +4,6 @@ const numPeople = document.querySelector('[data-num-people-input]');
 const billTotal = document.querySelector('#bill-total');
 const tipTotal = document.querySelector('#tip-total');
 let tip = [];
-// this is it you figured it out now do the calculations inside the function
 //find out which button is selected
 function setBillValue(e) {
     e.preventDefault();
